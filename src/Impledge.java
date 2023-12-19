@@ -27,9 +27,7 @@ public class Impledge
             i++;
         }
         List<String> list ;
-//        list= FACW(xyz);
 
-//         =  getSecondLongestString(list,longest);
         list= obj.FACW(xyz);
         String longest = list.stream().max(Comparator.comparingInt(String::length)).get();
         String second_Largest  = obj.getSecondLongestString(list,longest);
@@ -53,7 +51,6 @@ public class Impledge
             }
         }
         long end = System.currentTimeMillis();
-        //System.out.println(end-begin1);
         return list;
     }
     public static boolean check(String i,Set<String>set,Map<String,Integer>map)
