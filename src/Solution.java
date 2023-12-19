@@ -2,13 +2,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class Impledge
+public class Solution
 {
     public static void main(String[] args) throws FileNotFoundException
     {
         long begin = System.currentTimeMillis();
-        Impledge obj = new Impledge();
-        File file= new File("D:\\Impledge\\src\\Input_02.txt");
+        Solution obj = new Solution();
+        File file= new File("D:\\Solution\\src\\Input_02.txt");
         Scanner sc = new Scanner(file);
         Scanner gc = new Scanner(file);
         int count =0;
@@ -39,7 +39,7 @@ public class Impledge
     }
     public static List<String> FACW(String[] words)
     {
-        long begin1 = System.currentTimeMillis();
+
         List<String> list =new ArrayList<>();
         Set<String> set = new HashSet<>(Arrays.asList(words));
         Map<String,Integer> map=new HashMap<>();
@@ -50,7 +50,7 @@ public class Impledge
                 list.add(i);
             }
         }
-        long end = System.currentTimeMillis();
+
         return list;
     }
     public static boolean check(String i,Set<String>set,Map<String,Integer>map)
