@@ -13,7 +13,7 @@ o Select`Update Path variable` <br>
 <br>
 5- Open Solution.Java File 
 <br>
-6- Download the input files and select the same path where the files are downloaded in your system to execute the file : ~ EXAMPLE : "D:\\Solution\\src\\Input_02.txt"
+6- Download the input files and select the same path where the files are downloaded in your system to execute the file as input: ~ EXAMPLE : "D:\\Solution\\src\\Input_02.txt"
 
 ### Overview
 
