@@ -13,7 +13,7 @@ o Select`Update Path variable` <br>
 <br>
 5- Open Solution.Java File 
 <br>
-6- Choose the path of file input as desired output : ~ EXAMPLE : "D:\\Solution\\src\\Input_02.txt"
+6- Download the input files and select the same path where the files are downloaded in your system to execute the file : ~ EXAMPLE : "D:\\Solution\\src\\Input_02.txt"
 
 ### Overview
 
@@ -26,9 +26,9 @@ o `Longest` compounded word<br>
 o `Second Longest` compounded word<br>
 o  Time Taken to process the input file<br>
 
-## Approch 
+## Approach 
 After studying the problem i went with the solution using **Hashset** and **HashMap** , checking the current string is present over the array <br>
-:->> The problem asked to make a word with 2 or more words <br>
+:->> Select a string present over the array and using `.substring ` to find the desired string is present over array <br>
 :->> After Finding all the Compound words<br>
 :->> Found the `Longest` in the list using list string length comparison so that desired output can be achieved<br>
 :->> Now , `SecondLongest` <br>
