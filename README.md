@@ -36,3 +36,5 @@ After studying the problem i went with the solution using **Hashset** and **Hash
 : Printing the output 
 
 ### OUTPUT
+![Output 1](Output_01.jpeg)
+![Output 2](Output_02.jpeg)
